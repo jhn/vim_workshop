@@ -11,12 +11,12 @@ Your fingers will thank you:
 ## Various essential tips
 
 ### Very Important Commands
-`.`     -> Repeat the last action.
-`*`     -> Search for the word under the cursor (like a variable).
-`u`     -> Undo.
-`<c-r>` -> Redo.
+* `.`     -> Repeat the last action.
+* `*`     -> Search for the word under the cursor (like a variable).
+* `u`     -> Undo.
+* `<c-r>` -> Redo.
 
-## Modes
+### Modes
 * Normal -> You should spend most of your time here.
 * Insert -> Only for inserting.
 * Visual -> Lets you select text visually.
@@ -29,10 +29,10 @@ This is the most critical part. It'll become second nature after a while.
 
 Embrace `w`, `b`, `e`, `ge`.
 
-`w`  -> Beginning of next word.
-`b`  -> Beginning of previous word.
-`e`  -> Next end of word.
-`ge` -> Previous end of word.
+* `w`  -> Beginning of next word.
+* `b`  -> Beginning of previous word.
+* `e`  -> Next end of word.
+* `ge` -> Previous end of word.
 
 Here is some sample text; it has words.
 
@@ -47,23 +47,23 @@ Rule of thumb: If on the same line, use: `f`, `F`, `t`, `T`. Else, use: `/`, `?`
 
 =====
 
-`gg` -> Go to the top of the file.
-`G`  -> Go to the end of the file.
-`H`  -> High.
-`L`  -> Low.
-`M`  -> Middle.
+* `gg` -> Go to the top of the file.
+* `G`  -> Go to the end of the file.
+* `H`  -> High.
+* `L`  -> Low.
+* `M`  -> Middle.
 
 =====
 
-`(`, `)` -> Go to the start or end of a sentence.
-`{`, `}` -> Go to next or previous paragraph. Works great with code.
+* `(`, `)` -> Go to the start or end of a sentence.
+* `{`, `}` -> Go to next or previous paragraph. Works great with code.
 
 =====
 
-$    -> Go to the last character of the current line.
-^    -> Go to the first character of the current line.
-%    -> Go to matching (, ", {, etc.
-<#>G -> Go to line <#>.
+* $    -> Go to the last character of the current line.
+* ^    -> Go to the first character of the current line.
+* %    -> Go to matching (, ", {, etc.
+* <#>G -> Go to line <#>.
 
 ### Inserting text
 * `I` -> Insert at the beginning of the line.
@@ -72,22 +72,22 @@ $    -> Go to the last character of the current line.
 * `D` -> Delete line from current cursor position.
 * `C` -> Delete line from current cursor position and go into Insert mode.
 
-`ea`  -> Append at the end of the current word.
-`gea` -> Append at the end of the previous word.
+* `ea`  -> Append at the end of the current word.
+* `gea` -> Append at the end of the previous word.
 
 ### Dealing with (, [, {, ", '
-`ci(` -> Change inside (
-`yi(` -> Yank inside (
-`di(` -> Delete inside (
+* `ci(` -> Change inside (
+* `yi(` -> Yank inside (
+* `di(` -> Delete inside (
 
-`ya(` -> Yank around (
+* `ya(` -> Yank around (
 
 Replace `(` with `{`, `"`, or any text object like `w`ord, `p`aragraph, etc.
 
 Frequently used:
-`ciw` -> Change inside word
-`daw` -> Delete around word
-`ci"` -> Change inside quotes
+* `ciw` -> Change inside word
+* `daw` -> Delete around word
+* `ci"` -> Change inside quotes
 
 ### Mistakes
 Don't hhhhhhhhhh until you get to the error.
@@ -142,17 +142,17 @@ You don't have to leave vim to run your makefiles. Try:
 
 `:make`
 
-After running `:make`, you can try:
+After that, you can try:
 
-`:cn` -> Go to the line of the next error.
-`:cc` -> See all errors.
+* `:cn` -> Go to the line of the next error.
+* `:cc` -> See all errors.
 
 ### Miscelaneous
-`q:`    -> Open up the command history. Careful with `:q`.
-`<c-a>` -> To +1 next number without going into Insert mode.
-`<c-x>` -> To -1 next number without going into Insert mode.
-`=`     -> Indent selected lines (with Visual mode). Useful for code.
-`==`    -> Indent current line. No Visual selection required.
+* `q:`    -> Open up the command history. Careful with `:q`.
+* `<c-a>` -> To +1 next number without going into Insert mode.
+* `<c-x>` -> To -1 next number without going into Insert mode.
+* `=`     -> Indent selected lines (with Visual mode). Useful for code.
+* `==`    -> Indent current line. No Visual selection required.
 
 If you need to do a quick task in the terminal, don't quit vim; instead, suspend.
 `<c-z>` -> Puts vim in the background and returns to the terminal.
