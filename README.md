@@ -60,10 +60,10 @@ Rule of thumb: If on the same line, use: `f`, `F`, `t`, `T`. Else, use: `/`, `?`
 
 =====
 
-* $    -> Go to the last character of the current line.
-* ^    -> Go to the first character of the current line.
-* %    -> Go to matching (, ", {, etc.
-* <#>G -> Go to line <#>.
+* `$`    -> Go to the last character of the current line.
+* `^`    -> Go to the first character of the current line.
+* `%`    -> Go to matching (, ", {, etc.
+* `<#>G` -> Go to line <#>.
 
 ### Inserting text
 * `I` -> Insert at the beginning of the line.
